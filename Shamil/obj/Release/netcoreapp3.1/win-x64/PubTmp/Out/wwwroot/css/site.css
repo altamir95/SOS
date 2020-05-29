@@ -1,0 +1,232 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* font-family: 'Press Start 2P', cursive; */
+
+#Gender1,
+#Gender2,
+#Profession1,
+#Profession2,
+#Profession3,
+#Profession4,
+#Profession5,
+#Profession6,
+#Married1,
+#homeitem,
+#navitems1,
+#navitems2,
+#navitems3,
+#navitems4,
+#Married1,
+#Married2,
+#Kids1,
+#Kids2,
+#Car1,
+#Car2,
+#Firearms1,
+#Firearms2,
+.win1,
+.win2,
+.win3,
+.win4 {
+    display: none;
+}
+
+html {
+    background-color: black;
+}
+
+
+/* тело */
+
+body {
+    border-color: #21f739;
+    border-width: 5px;
+    border-style: solid;
+    margin: 20px 20px 20px 20px;
+    min-height: 600px;
+    font-family: 'Press Start 2P', cursive;
+    color: #21f739;
+}
+
+
+/* шапка */
+
+
+/* логотип */
+
+@-webkit-keyframes pulsate {
+    50% {
+        color: #fff;
+        text-shadow: 0 -1px rgba(0, 0, 0, .3), 0 0 5px #ffd, 0 0 8px #fff;
+    }
+}
+
+@keyframes pulsate {
+    50% {
+        color: #fff;
+        text-shadow: 0 -1px rgba(0, 0, 0, .3), 0 0 5px #ffd, 0 0 8px #fff;
+    }
+}
+
+.logo,
+.dot,
+.orgname {
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 7s linear infinite;
+    text-shadow: 0 -1px rgba(0, 0, 0, .1);
+    line-height: 0;
+}
+
+.logo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 250%;
+    color: #21f739;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.dot,
+.orgname {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50%;
+    color: #21f739;
+    text-align: center;
+}
+
+
+/* ЦЕНТР */
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* НАВИГАЦИОННОЕ МЕНЮ */
+
+table {
+    border-spacing: 1vw 2vh;
+    /* Расстояние между ячейками */
+}
+
+td {
+    padding: 5% 5% 5% 5%;
+    border: 5px solid #21f739;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 100%;
+    color: #21f739;
+}
+
+
+/* место окна */
+
+.winplace {
+    margin: 1% 1% 1% 1%;
+    border: 5px solid #21f739;
+    width: 100%;
+    min-height: 500px;
+}
+
+
+/* ОКНА */
+
+#homeitem:checked ~ .winhome,
+#navitems1:checked ~ .win1,
+#navitems2:checked ~ .win2,
+#navitems3:checked ~ .win3,
+#navitems4:checked ~ .win4 {
+    display: inline;
+    margin: 20px 20px 20px 20px;
+    color: #21f739;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    min-height: 5000px;
+}
+
+.map {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.forefinger {
+    text-align: center;
+    font-size: 200%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-color: #21f739;
+    border-width: 5px;
+    border-style: solid;
+    margin: 20px 20px 20px 20px;
+    width: 100%;
+    padding-left: 10%;
+}
+
+.reg_txt {
+    align-self: center;
+}
+
+#homeitem:checked + div,
+#navitems1:checked + div,
+#navitems2:checked + div,
+#navitems3:checked + div,
+#navitems4:checked + div,
+#Gender1:checked + div,
+#Gender2:checked + div,
+#Profession1:checked + div,
+#Profession2:checked + div,
+#Profession3:checked + div,
+#Profession4:checked + div,
+#Profession5:checked + div,
+#Profession6:checked + div,
+#Married1:checked + div,
+#Married1:checked + div,
+#Married2:checked + div,
+#Kids1:checked + div,
+#Kids2:checked + div,
+#Car1:checked + div,
+#Car2:checked + div,
+#Firearms1:checked + div,
+#Firearms2:checked + div,
+#homeitem:checked + div {
+    border-color: #21f739;
+    border-width: 5px;
+    border-style: solid;
+    padding: 5px 5px 5px 5px;
+    width: fit-content;
+}
+
+label div {
+    margin: 10px 10px 10px 10px;
+}
+
+input[type="text"] {
+    background-color: blue;
+    border: none;
+    outline: none;
+    font-family: 'Press Start 2P', cursive;
+    color: #21f739;
+    font-size: 15px;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    border: none;
+    border-radius: 0px;
+    background: #21f739;
+    outline: none;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    font-size: 11px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+form h2,
+a,
+div {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
