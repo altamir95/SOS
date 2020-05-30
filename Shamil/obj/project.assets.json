@@ -4935,11 +4935,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Администратор\\Documents\\Shamil\\Shamil\\Shamil.csproj",
+      "projectUniqueName": "C:\\Users\\Администратор\\Documents\\GitHub\\SOS\\Shamil\\Shamil.csproj",
       "projectName": "Shamil",
-      "projectPath": "C:\\Users\\Администратор\\Documents\\Shamil\\Shamil\\Shamil.csproj",
+      "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\SOS\\Shamil\\Shamil.csproj",
       "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Администратор\\Documents\\Shamil\\Shamil\\obj\\",
+      "outputPath": "C:\\Users\\Администратор\\Documents\\GitHub\\SOS\\Shamil\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4981,6 +4981,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4989,7 +4995,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

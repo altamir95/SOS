@@ -24,6 +24,7 @@
 #Car2,
 #Firearms1,
 #Firearms2,
+.winhome,
 .win1,
 .win2,
 .win3,
@@ -141,11 +142,11 @@ td {
     font-family: 'Press Start 2P', cursive;
     font-size: 20px;
     min-height: 5000px;
+    text-align: center;
 }
 
 .map {
     width: 50%;
-    margin-left: 25%;
 }
 
 .forefinger {
@@ -212,6 +213,7 @@ input[type="text"] {
     font-size: 15px;
 }
 
+input[type="button"],
 input[type="reset"],
 input[type="submit"] {
     border: none;
@@ -229,4 +231,10 @@ a,
 div {
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.win3 p, li {
+    text-indent: 20px;
+    margin: 30px 30px 30px 30px;
+    text-align: left;
 }
